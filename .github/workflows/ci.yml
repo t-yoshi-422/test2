@@ -44,6 +44,7 @@ jobs:
 
       - name: Install dependencies 👨🏻‍💻
         run: yarn
+        working-directory: ./hogehoge
 
       # - name: eslint review
       #   uses: reviewdog/action-eslint@v1
