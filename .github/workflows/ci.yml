@@ -47,4 +47,14 @@ jobs:
 
       - name: Run linter 👀
         run: yarn lint
+        working-directory: ./hogehoge
 
+      - name: generate
+        run: yarn run generate
+        working-directory: ./hogehoge
+
+      - name: deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./hogehoge/dist
