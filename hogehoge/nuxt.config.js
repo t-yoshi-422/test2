@@ -50,6 +50,6 @@ export default {
   build: {
   },
   router: {
-    base: '/test2/'
+    base: '/test2/hogehoge/'
   }
 }
