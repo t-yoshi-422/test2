@@ -51,5 +51,5 @@ export default {
   },
   router: {
     base: '/test2/'
-  },
+  }
 }
